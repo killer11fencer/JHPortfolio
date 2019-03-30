@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  align-items: center;
+  background-image: url("./james-pond-185593-unsplash.jpg");
+  background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+.hero {
+  height: 30vh;
+  width: 60vw;
+  margin-top: 27vh;
+  text-align: center;
+}
+
+.my-name {
+  height: 40%;
+  font-size: 4.5em;
+}
+
+.my-title {
+  height: 20%;
+  font-size: 2em;
+}
+
+.hero-hr {
+  width: 58%;
+  margin-bottom: 20px;
+  border-top: 1px solid white;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  width: 30%;
+  height: 20%;
+  text-decoration: none;
+  color: black;
+	font-size: 1.25em;
+  padding: 10px;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0);
+	border-radius: 30px;
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%);
+	background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%);
+	background: -o-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%);
+	background: -ms-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%);
+	background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.34);
+}
+
+footer {
+  display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 3vh;
+  height: 33vh;
+}
+
+.fa-phone {
+  margin-bottom: 10px;
+}
+
+.phone {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.fa-envelope {
+  margin-bottom: 10px;
+}
+
+.email {
+  color: white;
+  text-decoration: none;
+}
