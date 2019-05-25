@@ -1,6 +1,13 @@
 // Global styling for this template
+// body {
+//   text-rendering: optimizeLegibility;
+// 	max-width: 1420px;
+// 	padding: 0 10px;
+// }
+
 body,
 html {
+  text-rendering: optimizeLegibility;
   width: 100%;
   height: 100%;
 }
@@ -27,7 +34,7 @@ hr.light {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.25rem;
+  padding: 1rem 2rem;
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -41,7 +48,7 @@ hr.light {
 }
 
 
-aside {
-  height: 500px;
-  
-}
+
+
+
+
