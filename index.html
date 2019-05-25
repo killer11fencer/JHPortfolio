@@ -43,7 +43,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -82,44 +82,72 @@
           <p class="text-white-50 mb-4">I have a passion for code and innovation and can't wait to show you what I can
             do.
           </p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Portfolio</a>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Portfolio</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="page-section" id="services">
+  <!-- SKills Section -->
+  <section class="page-section" id="skills">
     <div class="container">
       <h2 class="text-center mt-0">Skills</h2>
       <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/react-logo.png">
+            <h4>React</h4>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/JavaScript-logo.png">
+            <h4>JavaScript</h4>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/node.png">
+            <h4>Node</h4>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/HTML5.png">
+            <h4>HTML</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/css3.jpg">
+            <h4>CSS</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/220px-Postgresql_elephant.png">
+            <h4>PostgreSQL</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/220px-Redux.png">
+            <h4>Redux</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x text-primary mb-4"></i>
+            <img style="height:67px;width:67px;" src="./img/portfolio/thumbnails/white-square.png">
+            <h4>And More...</h4>
           </div>
         </div>
       </div>
@@ -127,19 +155,21 @@
   </section>
 
   <!-- Portfolio Heading -->
-  <section class="page-section bg-dark text-white" id="portfolio">
+  <aside class="bg-dark text-white" id="portfolio">
     <div class="container text-center">
-      <h2 class="mb-4">Some of my work</h2>
+      <div style="padding: 56px 0;" class="call-to-action">
+        <h2>Some of My Work</h2>
+      </div>
     </div>
-  </section>
+  </aside>
 
   <!-- Portfolio Section -->
-  <section>
+  <section id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://s3.us-east-2.amazonaws.com/hiut-clone/website-screenshot.jpg">
-            <img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/hiut-clone/website-screenshot.jpg" alt="">
+        <div class="col-lg-6 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/website-screenshot.jpg">
+            <img class=" img-fluid" src="img/portfolio/thumbnails/website-screenshot.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 NODE | EXPRESS | POSTGRESQL | REACT |JAVASCRIPT | AXIOS | BCRYPTJS | REDUX | SASS | CSS | STRIPE |
@@ -221,12 +251,25 @@
   </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
+
+  <aside class="bg-dark text-white" id="portfolio">
+    <div class="container text-center">
+      <div style="padding: 56px 0;" class="call-to-action">
+        <a target="_blank" style="margin: 0 2%" class="btn btn-primary btn-xl" rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/christian-p-anderson/">See me on LinkedIn</a>
+        <a target="_blank" style="margin: 0 2%" class="btn btn-primary btn-xl" rel="noopener noreferrer"
+          href="https://github.com/AndersonChristian-P/">See me on
+          GitHub</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- <section class="page-section bg-dark text-white">
     <div class="container text-center">
       <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
       <a class="btn btn-light btn-xl" href="">Download Now!</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -235,17 +278,19 @@
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Let's Get In Touch!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">I look forward to discussing opportunities with you. Text, Call, or Email anytime.
+          <p class="text-muted mb-5">I look forward to discussing opportunities with you. Text, Call, or Email
+            anytime.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (303) 946-5386</div>
+          <i class="fas fa-phone fa-2x mb-3 text-muted"></i>
+          <br />
+          <a href="tel:1-303-946-5386">+1 (303) 946-5386</a>
         </div>
         <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <i class="fas fa-envelope fa-2x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
           <a class="d-block" href="mailto:christian.p.anderson1@gmail.com">christian.p.anderson1@gmail.com</a>
         </div>
